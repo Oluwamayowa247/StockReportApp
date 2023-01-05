@@ -1,4 +1,4 @@
-## Stock Market App
+## Stock Market Application
 **Application Description**</br>
 This is a Stock Market application that shows 10 random stock market reports of companies</br></br>
 **Application Description**
