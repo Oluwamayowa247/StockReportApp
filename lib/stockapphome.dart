@@ -1,5 +1,4 @@
 import 'dart:convert';
-//import 'dart:io';
 import 'package:connectivity_widget/connectivity_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:stock_market_app/model/stockmodel.dart';
@@ -82,8 +81,8 @@ class _StockAppHomeState extends State<StockAppHome> {
                         Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-                            Text('Opening Figure : ${open.toString()}'),
-                            Text('Closing Figure : ${close.toString()}')
+                            Text('Opening Figure : ${open.toString()}', style: TextStyle(fontSize: 15),),
+                            Text('Closing Figure : ${close.toString()}', style: TextStyle(fontSize: 15),)
                           ],
                         ),
                         Column(
@@ -145,5 +144,7 @@ _searchBar() {
 }
 
 void searchStock(String query) {
-  // final books =
+  // setstate((){
+
+  // });
 }
